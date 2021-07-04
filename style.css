@@ -8,6 +8,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 p{
     
@@ -41,4 +42,9 @@ p{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.high-hopes{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
