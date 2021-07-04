@@ -6,7 +6,16 @@ h1{
     font-size: 40px;
 
 }
+h2{
+    font-size: 30px;
+}
+/*
 section{
+    display: flex;
+    margin-bottom: 100px;
+}
+*/
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -47,4 +56,31 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.my-experience{
+    text-align: center;
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+}
+
+.item-shadow{
+    width: 45%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+   /* border: 10px solid violet; */
+}
+
+#web-dev-mustafiz{
+    border-left: 6px solid;
+    border-image:linear-gradient(yellow, red) ;
+    border-image-slice:1;
+}
+#web-dev-mustafiz2{
+    border-left: 6px solid;
+    border-image:linear-gradient(blue,pink) ;
+    border-image-slice:1;
 }
