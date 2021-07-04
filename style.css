@@ -19,10 +19,11 @@ section{
     display: flex;
     margin-bottom: 100px;
 }
+/*
 p{
     
 }
-
+*/
 .link-button{
     text-decoration: none;
     
@@ -83,4 +84,7 @@ p{
     border-left: 6px solid;
     border-image:linear-gradient(blue,pink) ;
     border-image-slice:1;
+}
+footer{
+    text-align: center;
 }
